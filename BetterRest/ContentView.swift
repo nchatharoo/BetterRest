@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+        
     static var defaultWakeTime: Date {
         var components = DateComponents()
         components.hour = 7
@@ -71,11 +71,9 @@ struct ContentView: View {
                 VStack(alignment: .leading) {
                     Text("Daily coffee intake")
                         .font(.headline)
-                    Stepper(value: $coffeeAmount, in: 1...20) {
-                        if coffeeAmount == 1 {
-                            Text("1 cup")
-                        } else {
-                            Text("\(coffeeAmount) cups")
+                    Picker("Number of cups", selection: $coffeeAmount) {
+                        ForEach(0..<21) { cups in
+                            Text("\(cups)")
                         }
                     }
                 }
