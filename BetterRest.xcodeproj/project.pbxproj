@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E609EEB2626DA6300BD84C3 /* BetterRest.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = 8E609EEA2626DA6300BD84C3 /* BetterRest.mlproj */; };
+		8E609EEF2626DB6700BD84C3 /* BetterRest.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E609EEE2626DB6700BD84C3 /* BetterRest.mlmodel */; };
 		8E6E3C4E2624706B0097F281 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E3C4D2624706B0097F281 /* BetterRestApp.swift */; };
 		8E6E3C502624706B0097F281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E3C4F2624706B0097F281 /* ContentView.swift */; };
 		8E6E3C522624706C0097F281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E3C512624706C0097F281 /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E609EEA2626DA6300BD84C3 /* BetterRest.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BetterRest.mlproj; sourceTree = "<group>"; };
+		8E609EEE2626DB6700BD84C3 /* BetterRest.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BetterRest.mlmodel; sourceTree = "<group>"; };
 		8E6E3C4A2624706B0097F281 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6E3C4D2624706B0097F281 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
 		8E6E3C4F2624706B0097F281 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 				8E6E3C4F2624706B0097F281 /* ContentView.swift */,
 				8E6E3C512624706C0097F281 /* Assets.xcassets */,
 				8E6E3C562624706C0097F281 /* Info.plist */,
-				8E609EEA2626DA6300BD84C3 /* BetterRest.mlproj */,
+				8E609EEE2626DB6700BD84C3 /* BetterRest.mlmodel */,
 				8E6E3C532624706C0097F281 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -130,7 +130,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E6E3C552624706C0097F281 /* Preview Assets.xcassets in Resources */,
-				8E609EEB2626DA6300BD84C3 /* BetterRest.mlproj in Resources */,
 				8E6E3C522624706C0097F281 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E6E3C502624706B0097F281 /* ContentView.swift in Sources */,
+				8E609EEF2626DB6700BD84C3 /* BetterRest.mlmodel in Sources */,
 				8E6E3C4E2624706B0097F281 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
